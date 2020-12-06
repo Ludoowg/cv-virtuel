@@ -1,0 +1,75 @@
+<!-- about section -->
+        <section class = "about" id = "about">
+            <div class="max-width">
+                <h2 class="title">Mon profil</h2>
+                <div class="about-content">
+                    <div class="column left">
+                        <img src ="./cvludo.pdf" alt = "">
+                    </div>
+                    <div class="column right">
+                        <div class="text">Mon parcours</div>
+                        <p>Après deux années de classe préparatoire en école d’ingénieur, je souhaite poursuivre mon parcours en me spécialisant en informatique. Je suis persuadé que les méthodes de travail acquises durant mes dernières années d’études me permettront de pouvoir acquérir très rapidement les savoirs nécessaires pour être un employé décisif au sein de votre entreprise</p>
+                        <a href="#">Télécharger mon CV</a>
+                    </div>
+                </div>
+            </div>
+       </section>
+
+
+/*about section styling*/
+
+
+.about .title::after{
+    content: "who i am";
+}
+
+.about .about-content .left{
+    width: 50%;
+}
+
+.about .about-content .left img{
+    height: 1000px;
+    width: 1000px;
+    padding-left: 50px;
+    border-radius: 6px;
+    object-fit: contain;
+}
+
+.about .about-content .right{
+    width: 50%;
+    padding: 50px;
+}
+
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.about .about-content .right p{
+    text-align: justify;
+}
+
+.about .about-content .right a{
+    text-align: justify;
+}
+
+.about .about-content .right a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 35px;
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.6s ease;
+}
+
+.about .about-content .right a:hover{
+    color: crimson;
+    background: #fff;
+}
